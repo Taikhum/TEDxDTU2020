@@ -242,23 +242,16 @@ color: red;}
 	background-blend-mode: var(--blend-mode-1);
 }
 
-
-.glitch--style-7 .glitch__img{
-	background-image: url(../img/7.jpg)
-}
-.glitch--style-8 .glitch__img{
-	background-image: url(../img/8.jpg)
-}
-.glitch--style-2 .glitch__img {
-	background-image: url(../img/2.jpg);
+glitch--style-2 .glitch__img {
+	background-image: url(../img/Lalit\ Kumar.png);
 }
 
 .glitch--style-3 .glitch__img {
-	background-image: url(../img/3.jpg);
+	background-image: url(../img/Arjun\ Hardas.png);
 }
 
 .glitch--style-4 .glitch__img {
-	background-image: url(../img/4.jpg);
+	background-image: url(../img/vineet\ panchhi.jpg);
 }
 
 .glitch--style-5 .glitch__img {
@@ -266,7 +259,7 @@ color: red;}
 }
 
 .glitch--style-6 .glitch__img {
-	background-image: url(../img/6.jpg);
+	background-image: url(../img/Toolika\ Gupta.jpg);
 }
 
 /* Set the background colors for the glitch images*/
