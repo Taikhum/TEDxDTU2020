@@ -69,6 +69,13 @@ button.more:hover {
   padding-top: 150px;
   position: relative; }
 
+  p.spk{
+    color:#ffffff;
+    text-align:center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 1.2rem;
+  }
+
 .cd-wrapper {
   margin-top: 40px;
   width: 100%;
