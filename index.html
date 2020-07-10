@@ -44,7 +44,7 @@
 </header>
 <nav>
 	<div class="nav-wrapper">
-		<a href="#"><div class="link current">Home</div></a>
+		<a href="#"><div class="link">Home</div></a>
 		<a href="#2sec"><div class="link">About</div></a>
 		<a href="#5sec"><div class="link">Theme</div></a>
 		<a href="#3sec"><div class="link">Speakers</div></a>
@@ -909,6 +909,13 @@ img:hover {
 </style>
 
 <script>
+	var domain = 'tedxdtu.co.in';
+  var domain_index =  window.location.href.indexOf(domain);
+  var long_app_name = window.location.href.slice(domain_index+domain.length+1); 
+  app_name = long_app_name.slice(0, long_app_name.indexOf('#')); 
+  //now you are left off with just whatever
+then you use jquery to add class active
+$('nav a[href*="#' + app_name+'"]').closest('li').addClass('current');
 $(document).bind('scroll',function(){
     $(".box").animate({
 	  width: "400"
