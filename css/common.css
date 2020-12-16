@@ -432,3 +432,9 @@ iframe{
   border: none;
   overflow: hide;
 }
+
+.img_speaker{
+  height: 275px;
+  width: 250px;
+ 
+}
