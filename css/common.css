@@ -68,6 +68,10 @@ nav {
     height: 75px;
     margin: 40px; }
 
+#about-speakers{
+  margin:0 5rem;
+}
+
 .logo {
   position: absolute;
   left: 5%;
@@ -194,6 +198,16 @@ h2 {
     font-size: 1em;
     color: #777;
     line-height: 2; }
+
+.center {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.des-theme{
+  margin:0 10rem;
+}
 
 footer {
   width: 100%;
@@ -341,6 +355,9 @@ input[type="submit"].google:hover {
   .hamburger {
     display: block; }
 
+    .des-theme{
+      margin:0 5rem;
+    }
   .links-wrapper {
     display: none; }
 
@@ -355,6 +372,7 @@ input[type="submit"].google:hover {
 @media screen and (max-width: 700px) {
   h1 {
     font-size: 3em; }
+
 
   footer {
     padding: 30px 0px; }
@@ -376,6 +394,13 @@ input[type="submit"].google:hover {
   .login-page {
     padding: 50px 0px; } }
 @media screen and (max-width: 500px) {
+  .des-theme{
+    margin:0;
+  }
+  #about-speakers{
+    display:block !important;
+    margin: 0;
+  }
   h1 {
     width: 90%;
     font-size: 2.5em; }
