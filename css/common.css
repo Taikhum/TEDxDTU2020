@@ -207,6 +207,13 @@ h2 {
 
 .des-theme{
   margin:0 10rem;
+  font-weight:lighter;
+  font-size: 18px;
+}
+
+.theme{
+  font-weight:lighter;
+  font-size:20px;
 }
 
 footer {
@@ -394,8 +401,16 @@ input[type="submit"].google:hover {
   .login-page {
     padding: 50px 0px; } }
 @media screen and (max-width: 500px) {
+  .theme .gallery-wrapper div{
+    margin:0 !important;
+  }
+
   .des-theme{
     margin:0;
+    font-size:16px !important;
+  }
+  video{
+    width:95% !important;
   }
   #about-speakers{
     display:block !important;
